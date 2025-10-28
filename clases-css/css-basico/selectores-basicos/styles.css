@@ -1,0 +1,20 @@
+/*Selector por elemento: busca el nombre del elemento HTML y le modifica sus estilos, en este caso modificamos el color del elemento <h1>*/
+h1 {
+    color: green;
+}
+
+ul {
+    color: red;
+}
+/*Selector por .clase: si queremos llamar a un elemento por su clase agregamos el . por delante, de esta manera todos los elementos que tengan la misma clase se modificaran con los mismos estilos, el nombre de las calses debe ser lo más descriptivo y entendible posible de acuerdo con el elemento.*/
+.elemento-02 {
+    color: purple;
+}
+/*Selector por #id: cuando necesitamos llamar a un elemento por su identificador único agregamos # por delante */
+#elemento-clave {
+    color: blue;
+}
+
+.resumen {
+    color: black;
+}
