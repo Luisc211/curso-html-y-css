@@ -1,0 +1,17 @@
+h1 {
+    color: green;
+}
+
+p {
+    color: red; /*Modifica el color del texto*/
+    font-family: arial; /*Modifica el estilo de la tipografía, sin comillas cuando el nombre de la tipografia es de un solo nombre, con comillas cuando el nombre de la tipografia tiene mas de una palabra*/
+    font-size: 14px; /*Modifica el tamaño del texto*/
+    font-weight: 200; /*Modifica el grozor de la fuente, hay 9 niveles, del 100 al 900, pero varía entre las diferentes tipografías, algunas tienen un rango, otras tres, otras los nueve, también tenemos bold (700), para dar estilo en negrita, y bolder, que bolder va más allá*/
+    font-style: normal; /*Modifica si la fuente sera inclinada, es decir, tenemos italic, oblicua, y normal, normal es el valor por defecto*, también varía entre las tipografías, italic es bastante inclinada, y oblique menos inclinada/
+    text-decoration: underline; /*Subrayado del texto*/
+    text-align: justify; /*Alineación del texto dentro de su contenedor, así como en word y google docs, justificada, centrada*/
+    text-decoration: underline; /*Subrayado del texto, por defecto es none*/
+    line-height: 1.4;/*Define el espaciado entre las líneas de texto, puede ser en pocentajes*/
+    letter-spacing: 1px;/*Define que tan separadas estaran las letras*/
+    text-transform: none ; /*Mayusculas, minusculas, capitalización*/
+}
