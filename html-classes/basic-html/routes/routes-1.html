@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rutas en HTML</title>
+</head>
+<body>
+    <h1>Rutas en HTML</h1>
+    <p>
+        Una <strong>ruta</strong> en HTML (o <em>path</em>) es la dirección que nos indica dónde está ubicado un archivo,
+        ya sea dentro de nuestro proyecto o en Internet.
+    </p>
+    <h2>Algunas etiquetas que usan rutas</h2>
+    <ul>
+        <li>&lt;a href="ruta.html"&gt;Enlace&lt;/a&gt;</li>
+        <li>&lt;img src="ruta.jpg" alt="Imagen" title="Imagen"&gt;</li>
+        <li>&lt;link rel="stylesheet" href="ruta.css"&gt;</li>
+        <li>&lt;script src="ruta.js"&gt;&lt;/script&gt;</li>
+    </ul>
+    <h2>Tipos de rutas</h2>
+    <h3>Rutas relativas</h3>
+    <p>
+        Indican la ubicación del archivo que necesitamos en relación con la página actual.
+        Son las más comunes cuando trabajamos con archivos dentro de nuestro proyecto.
+    </p>
+    <h4>Mismo nivel</h4>
+    <p>
+        Para acceder a archivos que se encuentran en la misma jerarquía, basta con escribir el nombre del archivo al que
+        queremos acceder.
+    </p>
+    <p>&lt;img src="amazonas.jpg" alt="Río Amazonas" title="Río Amazonas"&gt;</p>
+    <img src="amazonas.jpg" alt="Río Amazonas" title="Río Amazonas">
+    <h4>Una carpeta adelante</h4>
+    <p>
+        Para acceder a un archivo que se encuentra dentro de una carpeta, lo hacemos así:
+        <strong>carpeta-contenedora/archivo</strong>.
+        Es decir, escribimos el nombre de la carpeta que contiene el archivo, seguido de una barra / y luego
+        el nombre del archivo.
+    </p>
+    <p>&lt;a href="carpeta-contenedora/archivo-contenido"&gt;Enlace&lt;/a&gt;</p>
+    <a href="routes-1/index.html">Enlace</a>
+    <h4>Más de una carpeta adelante</h4>
+    <p>
+        Para acceder a archivos que están dentro de varias carpetas, usamos una barra / por cada carpeta:
+        <strong>carpeta-1/carpeta-2/nombre-del-archivo</strong>.
+    </p>
+    <p>&lt;a href="carpeta-1/carpeta-2/nombre-del-archivo"&gt;Enlace&lt;/a&gt;</p>
+    <a href="routes-1/routes-2/index.html">Enlace</a>
+    <h4>Carpetas atrás</h4>
+    <p>
+        Para acceder a archivos que se encuentran en carpetas anteriores (niveles superiores), usamos ../
+        por cada carpeta que necesitemos retroceder.
+        Ejemplos:
+    </p>
+    <ul>
+        <li>Una carpeta atrás:../</li>
+        <li>Dos carpetas atrás: ../../</li>
+        <li>Y así sucesivamente...</li>
+    </ul>
+    <p>&lt;a href="../../"&gt;Enlace&lt;/a&gt;</p>
+    <a href="../../">Enlace</a>
+    <h3>Rutas absolutas</h3>
+    <p>
+        Indican la dirección completa (incluyendo el protocolo y el dominio).  
+        Se utilizan para acceder a archivos que están fuera de nuestro proyecto, como imágenes o recursos en Internet.
+        Por ejemplo, usando http o https:
+    </p>
+    <p>&lt;img src="https://www.ejemplo.com/imagen.jpg" alt="Imagen externa"&gt;</p>
+    <img src="https://www.w3schools.com/html/img_chania.jpg" alt="Ejemplo de imagen externa">
+</body>
+</html>
