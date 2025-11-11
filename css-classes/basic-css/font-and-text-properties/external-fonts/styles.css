@@ -1,0 +1,12 @@
+p {
+    color: green; /*Modifica el color del texto*/
+    font-family: 'Indie Flower'; /*Modifica el estilo de la fuente*/
+    font-size: 13px; /*Modifica el tamaño de la fuente*/
+    font-weight: bold; /*Grozor de la fuente*/
+    font-style: italic; /*Inclinación de la fuente*/
+    text-align: justify; /*Alnineacón del texto*/
+    text-decoration: underline; /*Subrayado del texto, se pueden combinar*/
+    line-height: 1.3; /*Espacio entre líneas*/
+    letter-spacing: normal; /*Espacio entre letras*/
+    text-transform: none;  /*convertir toda la fuente a minusculas, mayusculas, capitalización*/
+}
