@@ -29,16 +29,32 @@
     <h2>Unidades relativas</h2>
     <p>Cambian según el tamaño de la fuente, tamaño del contenedor o tamaño de la ventana.</p>
     <ul>
-            <h3>Relativas al tamaño de la fuente</h3>
-            <li><span>em: </span>Tamaño de fuente del elemento  más padre que tenga el font-size definido, si no lo encuentra sera respecto al tamaño del navegador, 1em va valer lo mismo que el font-size del elemento padre,2em el doble, 3em el triple y asi sucesivamente.</li>
-            <li><span>rem: </span>igual a em pero es respecto al tamaño de fuente del elemento raiz (html)</li>
-            <h3>Relativas al tamaño del contenedor</h3>
-            <li><span>% </span>Porcentaje del tamaño del contenedor</li>
-            <h3>Relativas a la ventana (viewport)</h3>
-            <li><span>vw: </span>1% del ancho de la ventana</li>
-            <li><span>vh: </span>1% del alto de la ventana</li>
-            <li><span>vmin: </span>el menor valor entre vw y vh</li>
-            <li><span>vmax: </span>el mayor valor entre vw y vh</li>
+        <h3>Relativas al tamaño de la fuente</h3>
+        <li><span>em: </span>Tamaño de fuente del elemento más padre que tenga el font-size definido, si no lo encuentra
+            sera respecto al tamaño del navegador, 1em va valer lo mismo que el font-size del elemento padre,2em el
+            doble, 3em el triple y asi sucesivamente.</li>
+        <li><span>rem: </span>igual a em pero es respecto al tamaño de fuente del elemento raiz (html)</li>
+        <h3>Relativas al tamaño del contenedor</h3>
+        <li><span>% </span>Porcentaje del tamaño del contenedor</li>
+        <h3>Relativas a la ventana (viewport)</h3>
+        <li><span>vw: </span>1% del ancho de la ventana</li>
+        <li><span>vh: </span>1% del alto de la ventana</li>
+        <li><span>vmin: </span>el menor valor entre vw y vh</li>
+        <li><span>vmax: </span>el mayor valor entre vw y vh</li>
+    </ul>
+    <h3>Cuando usar cada uno</h3>
+    <ul>
+        <li><span>Tamaños fijos prescisos: </span>px</li>
+        <li><span>Tipografías responsivas: </span> em, rem</li>
+        <li><span>layouts fluidos y flexibles: </span>%, vw, vh</li>
+        <li><span>Espaciados escalables: </span>rem</li>
+    </ul>
+    <h3>Tip</h3>
+    <ul>
+        <li><span>1rem=16px</span>(Configuración base)</li>
+        <li>Usamos rem para tipografías y espaciados</li>
+        <li>Usamos vw/vh para elementos quye dependan de la pantalla</li>
+        <li>Usamos pixeles solo cuando realmente necesitamos precisión</li>
     </ul>
 </body>
 </html>
