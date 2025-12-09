@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Details and summary</title>
+</head>
+<body>
+    <h1>Details y summary</h1>
+    <p>Details y summary son etiquetas HTML que nos permite crear secciones desplegables sin necesidad de JavaScript, es
+        decir podemos ocultar o mostrar información con un clic</p>
+    <h2>Details</h2>
+    <p>Es el contenedor que guarda el contenido que se puede abrir o cerrar</p>
+    <h2>Summary</h2>
+    <p>Es el titulo o encabezado que el usuario ve y sobre el que hace clic para abrir/cerrar la información.</p>
+    <h2>¿Como funcionan?</h2>
+    <p>Cuando el usuario hace clic en el summary, el contenido dentro de details se muestra</p>
+    <ul>
+        <li>Si el usuario vuelve a hacer clic, el contenido se oculta</li>
+        <li>Por defecto, details esta cerrado</li>
+        <li>Si queremos que aparezca abierto, podemos usar el atributo open</li>
+    </ul>
+    <h2>Usos comunes</h2>
+    <ul>
+        <li>Preguntas frecuentes (FAQ)</li>
+        <li>Mostrar detalles opcionales en formularios</li>
+        <li>Información que no deseamos mostrar de inmediato</li>
+        <li>Listas largas que debemos ocultar</li>
+        <li>Explicaciones adicionales, pasos, notas, etc.</li>
+    </ul>
+    <h2>Ventajas</h2>
+    <ul>
+        <li>No necesitamos JavaScript</li>
+        <li>Es accesible, (lectores de pantalla lo interpretan correctamente)</li>
+        <li>Es fácil de usar</li>
+        <li>Funcionan en la mayoria de navegadores modernos</li>
+    </ul>
+    <h2>Ejemplo</h2>
+    <details>
+        <summary>¿Que debo llevar al evento?</summary>
+        <ul>
+            <li>Tu laptop</li>
+            <li>Ganas de codear</li>
+        </ul>
+    </details>
+    <details>
+        <summary>¿Debo ser mayor de edad?</summary>
+        <ul>
+            <p>Si debes ser mayor de edad, o estar acompañado por un adulto</p>
+        </ul>
+    </details>
+</body>
+</html>
