@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+    <p>
+        Un formulario se crea con la etiqueta &lt;form&gt; y sirve para enviar datos desde el navegador a un servidor,
+        por ejemplo, para iniciar sesión, registrarse o enviar un mensaje. Generalmente, utiliza el método <em>post</em>.
+        Dentro de la etiqueta &lt;form&gt; se colocan las etiquetas &lt;input&gt;, que son campos en los cuales el usuario
+        puede escribir texto, un correo electrónico o una contraseña. También permiten, por ejemplo, ingresar su fecha
+        de nacimiento, elegir un color o subir un archivo.
+    </p>
+    <h2>Formulario</h2>
+    <form action="" method="">
+        <input type="text" placeholder="Escribe aquí texto..." required name="message" value="" minlength="3">
+        <input type="email" placeholder="Correo electrónico" required name="username">
+        <input type="password" placeholder="Contraseña" required>
+        <input type="date" required>
+        <input type="color" required>
+        <input type="checkbox" required>
+        <input type="radio" required>
+        <input type="file" required>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
