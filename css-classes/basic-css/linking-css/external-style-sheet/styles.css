@@ -1,0 +1,12 @@
+/*Brimos bloque de declaraciones con llaves citando el nombre del elemento HTML, y modificamos los estilos que necesitemos*/
+h1 {
+    color: green;
+}
+
+h2 {
+    color: red;
+}
+
+p {
+    color: purple;
+}
