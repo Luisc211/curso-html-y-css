@@ -1,0 +1,23 @@
+div {
+    background-color: green;
+    width: 150px;
+    margin: auto;
+    text-align: center;
+    /*Propiedades del borde del divisor, usando 3 líneas de código*/
+    border-width: 2px;
+    border-color: red;
+    border-style: solid;
+    /*Redondeo de los bordes*/
+    border-radius: 6px;
+}
+
+.box {
+    background-color: green;
+    width: 150px;
+    margin: auto;
+    text-align: center;
+    /*Propiedades del borde del divisor, usando el shorthand border*/
+    border: 2px solid red;
+    /*Border radius, que funciona aparte*/
+    border-radius: 6px;
+}
