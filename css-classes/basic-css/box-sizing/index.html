@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Box-sizing (Tamaño de caja)</title>
+</head>
+<body>
+    <h1>Box-sizing (Tamaño de caja)</h1>
+    <p>El box-sizing tiene dos valores, una propiedad de CSS que se utilizapara afectar como funciona el modelo de caja
+        predeterminado, como los navegadores calculan el total del tamaño de un elemento, que incluye el contenido, el
+        padding, el borde, imaginemos que tenemos una caja en nuestra página web, esa caja esta compuesta por varias
+        capas: el contenido, el padding, el borde, el margin, le pedimos al navegador que nos calcule el tamaño total de
+        la caja, tenemos dos opciones: </p>
+    <h2>Content-box</h2>
+    <p>Es el tamaño predeterminado: en este caso cuando le damos el ancho y el alto a nuestra caja, estos valores se
+        aplicaran solo al contenido, si añadimos padding, border, y margin la caja crece más.</p>
+    <h2>Border-box</h2>
+    <p>Nos posicionamos del borde, le damos ancho y alto a la caja, cuando añadimos padding y border, la caja no crece,
+        el contenido se ajustara dentro del espacio.</p>
+    <h2>Ejemplos</h2>
+    <h3>Caja utilizando el tamaño predeterminado (content-box)</h3>
+    <p>El ancho y alto sera solo para el contenido, el padding, border, y margin que agregemos se sumara al tamaño total
+        de la caja y ocupara más espacio del alto y ancho que declaramos</p>
+    <img src="content-box.png" alt="content-box">
+    <div class="box-default"></div>
+    <h3>Caja utilizando box-sizing: border-box</h3>
+    <p>El tamaño es fijo, por más padding y border que agreguemos la caja no crecera más allá del ancho y alto que
+        declaramos</p>
+    <img src="border-box.png" alt="border-box">
+    <div class="box-new"></div>
+</body>
+</html>
