@@ -1,0 +1,23 @@
+div {
+    background-color: #ededed;
+    padding: 20px;
+    font-family: 'Times New Roman';
+    border-left: 5px solid #999;
+}
+
+h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+span {
+    font-weight: bolder;
+}
+
+p {
+    color: #555;
+}
+
+.item {
+    color:red;
+}

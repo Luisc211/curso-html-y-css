@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Unidades de medida</title>
+</head>
+<body>
+    <h1>Unidades de medida</h1>
+    <div>
+        <h2>Has recibido un mensaje <span>(Hace un momento)</span></h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, cumque voluptatibus nostrum eum quam
+            assumenda debitis inventore officiis, consequatur enim placeat voluptates vero! Aut voluptates et dolorum
+            quos praesentium beatae!</p>
+    </div>
+    <p>Las unidades de medida son valores que nos permiten definir tamaños, distancias, posiciones y proporciones dentro
+        de nuestra página web.</p>
+    <h2>Unidades absolutas</h2>
+    <p>Estas unidades no cambian, sin importar pantalla, zoom o tamaño de fuente</p>
+    <ul>
+        <li><span>Pixeles (px): </span>Se usan comunmente en bordes, tamaños pequeños y layouts precisos.</li>
+        <li><span>Centimetros (cm): </span>Diseños de impresión</li>
+        <li><span>Milimetros (cm): </span>Diseños de impresión</li>
+        <li><span>Pulgadas (in): </span>impresión (1 in = 96 px)</li>
+        <li><span>Puntos tipográficos (pt):</span>Diseños de impresión</li>
+        <li><span>Picas (pc): </span>Diseños de impresión</li>
+    </ul>
+    <h2>Unidades relativas</h2>
+    <p>Cambian según el tamaño de la fuente, tamaño del contenedor o tamaño de la ventana.</p>
+    <ul>
+        <h3>Relativas al tamaño de la fuente</h3>
+        <li><span>em: </span>Tamaño de fuente del elemento más padre que tenga el font-size definido, si no lo encuentra
+            sera respecto al tamaño del navegador, 1em va valer lo mismo que el font-size del elemento padre,2em el
+            doble, 3em el triple y asi sucesivamente.</li>
+        <li><span>rem: </span>igual a em pero es respecto al tamaño de fuente del elemento raiz (html)</li>
+        <h3>Relativas al tamaño del contenedor</h3>
+        <li><span>% </span>Porcentaje del tamaño del contenedor</li>
+        <h3>Relativas a la ventana (viewport)</h3>
+        <li><span>vw: </span>1% del ancho de la ventana</li>
+        <li><span>vh: </span>1% del alto de la ventana</li>
+        <li><span>vmin: </span>el menor valor entre vw y vh</li>
+        <li><span>vmax: </span>el mayor valor entre vw y vh</li>
+    </ul>
+    <h3>Cuando usar cada uno</h3>
+    <ul>
+        <li><span>Tamaños fijos prescisos: </span>px</li>
+        <li><span>Tipografías responsivas: </span> em, rem</li>
+        <li><span>layouts fluidos y flexibles: </span>%, vw, vh</li>
+        <li><span>Espaciados escalables: </span>rem</li>
+    </ul>
+    <h3>Tip</h3>
+    <ul>
+        <li><span>1rem=16px</span>(Configuración base)</li>
+        <li>Usamos rem para tipografías y espaciados</li>
+        <li>Usamos vw/vh para elementos quye dependan de la pantalla</li>
+        <li>Usamos pixeles solo cuando realmente necesitamos precisión</li>
+    </ul>
+</body>
+</html>
