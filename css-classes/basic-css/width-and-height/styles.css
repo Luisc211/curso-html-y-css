@@ -1,0 +1,15 @@
+div {
+    background-color: green;
+    /*Height y width determinan la altura y el ancho respectivamente*/
+    height: 200px;
+    width: 200px;
+}
+
+/*Si le damos el ancho en porcentaje, este porcentaje sera respecto a su caja contenedora, por ejemplo form contiene a las etiquetas hijas input, estas ocupara en el 80% del ancho de su caja padre, o caja contenedora, es decir de form*/
+form {
+    background-color: green;
+}
+
+input {
+    width: 80%;
+}
