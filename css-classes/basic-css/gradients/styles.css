@@ -1,0 +1,27 @@
+.box {
+    height: 400px;
+    width: 400px;
+    background-color: green;
+    background: linear-gradient(green, transparent);
+}
+
+.to-right {
+    height: 400px;
+    width: 400px;
+    background-color: green;
+    background: linear-gradient( to right,  green, transparent);
+}
+
+.to-left {
+    height: 400px;
+    width: 400px;
+    background-color: green;
+    background: linear-gradient( to left,  green, transparent);
+}
+
+.radial {
+    height: 400px;
+    width: 400px;
+    background-color: green;
+    background: radial-gradient(green, transparent);
+}
