@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Textarea</title>
+</head>
+<body>
+    <h1>Textarea</h1>
+    <p>El textarea es un input que nos permite escribir varias líneas de contenido, a diferencia del input type text que
+        solo nos permite una sola línea</p>
+    <form action="">
+        <h2>Formulario de contacto</h2>
+        <div class="form_input">
+            <label for="nombre">Nombre completo</label>
+            <input type="text" placeholder="Jhon Doe" id="nombre">
+        </div>
+        <div class="form_input">
+            <label>Correo electrónico
+                <input type="email" placeholder="Example@gmail.com">
+            </label>
+        </div>
+        <div class="form_input">
+            <label for="mensaje">Mensaje</label>
+            <textarea rows="8" placeholder="Deja tu mensaje aquí..." maxlength="140" id="mensaje"></textarea>
+        </div>
+        <div class="form_input">
+            <textarea readonly>Solo lectura, no se puede editar</textarea>
+        </div>
+        <div class="form_input">
+            <textarea disabled>Textarea desactivado, no hace focus</textarea>
+        </div>
+        <div class="form_input">
+            <label for="checkbox">Acepto los terminos y condiciones</label>
+            <input type="checkbox" class="checkbox" id="checkbox">
+        </div>
+    </form>
+</body>
+</html>
